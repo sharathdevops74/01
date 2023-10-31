@@ -1,6 +1,9 @@
 #!/bin!bash
+
+    PERSON1=Ramesh
+    PERSON2=suresh
     echo "Hello world"
-    echo "Ramesh: Hi suresh, Good morning"
-    echo "suresh: Good morning Ramesh"
-    echo "Ramesh: How are you suresh"
-    echo "Suresh: Iam fine, How are you" 
+    echo "$PERSON1: Hi $PERSON2, Good morning"
+    echo "$PERSON2: Good morning $PERSON1"
+    echo "$PERSON1: How are you $PERSON2"
+    echo "$PERSON2: Iam fine, How are you" 
